@@ -49,4 +49,16 @@ export default class DracoAvatarGithub extends DracoAvatar<DracoAvatarGithubSign
       console.error(`Error fetching user data: ${error.message}`);
     }
   }
+
+  get classNames(): string {
+    const classes = ['draco-icon-github'];
+
+    // add a class based on the @size argument
+    classes.push(`draco-icon-github--size-${this.size}`);
+
+    // add a class based on the @shape argument
+    classes.push(`draco-icon-github--shape-${this.shape}`);
+
+    return classes.join(' ');
+  }
 }
