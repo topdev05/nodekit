@@ -1,16 +1,16 @@
 {
   background: {
     primary: {
-      $value: '{base.color.neutral.100}',
+      $value: '{base.color.neutral.900}',
       $type: 'color',
       $extensions: {
         'dev.dracoui.overrides': {
-          dark: '{base.color.neutral.950}',
+          dark: '{base.color.neutral.100}',
         },
       },
     },
     'primary-hovered': {
-      $value: '{base.color.neutral.200}',
+      $value: '{base.color.neutral.700}',
       $type: 'color',
       $extensions: {
         'dev.dracoui.overrides': {
@@ -18,12 +18,12 @@
         },
       }
     },
-    'primary-active': {
-      $value: '{base.color.neutral.200}',
+    'primary-disabled': {
+      $value: '{base.color.neutral.100}',
       $type: 'color',
       $extensions: {
         'dev.dracoui.overrides': {
-          dark: '{base.color.neutral.300}',
+          dark: '{base.color.neutral.900}',
         },
       }
     }
