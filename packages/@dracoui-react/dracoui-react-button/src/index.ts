@@ -6,7 +6,4 @@
  *
  */
 
-export { Button, Button as DracoButton } from './Button';
-export { buttonVariants } from './Button.styles';
-
-export type { ButtonProps, ButtonProps as DracoButtonProps } from './Button.types';
+export * from './components/Button';
